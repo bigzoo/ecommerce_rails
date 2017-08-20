@@ -1,3 +1,3 @@
 class Account < ApplicationRecord
-    has_may :orders
+    has_many :orders
 end
